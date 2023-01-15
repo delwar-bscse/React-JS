@@ -1,30 +1,25 @@
 import React from 'react';
 
-const date = new Date();
-const getDay = date.getDate();
-const getMonth = date.getMonth();
-const getYear = date.getFullYear();
-
-
 function Card(props){
+    const {id, name, age, languages} = props;
 
-  const {id, cardTitle, cardDes, cardNumber} = props;
+    const lang_level = languages.map((lang)=>{
+        const {language,level_01,level_02,level_03} = lang;
+        return <div className='lang'>
+            <h4>Language : {language}</h4>
+            <p>level_01 : {level_01}</p>
+            <p>level_02 : {level_02}</p>
+            <p>level_03 : {level_03}</p>
+        </div>
+    });
 
-  const nums = cardNumber.map((num, index)=>{
-    const {homeNum, officeNum} = num;
-    return <div key={index}>
-      <p>Home : {homeNum}</p>
-      <p>Office : {officeNum}</p>
+    return <div className='li_card'>
+        <h3>ID : {id}</h3>
+        <h3>Name : {name}</h3>
+        <p>Age : {age}</p>
+        {lang_level}
+        <button className='btn'>Click Me</button>
     </div>
-  })
-  
-  return <div className='Card'>
-    <h3 className='cardTitle'>{cardTitle}</h3>
-    <p>{"UUID : "+id}</p>
-    <p className='cardDes'><b>Description : </b>{cardDes}</p>
-    {nums}
-    <p className='cardTime'>{getDay+"/"+getMonth+"/"+getYear}</p>
-  </div>
 }
 
 export default Card;

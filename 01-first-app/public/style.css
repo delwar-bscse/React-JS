@@ -2,31 +2,44 @@
     margin:0px;
     padding:0px;
 }
-.todoHeading{
-    background-color:palegreen;
-    color:blueviolet;
+.li_div{
+    margin: 10px auto;
+    max-width: 960px;
+    border:2px solid black;
+}
+.li_header{
+    background-color:#ADD8E6;
+    color:#800080;
     text-align:center;
-    padding:25px 10px 30px;
-    margin:10px;
-    font-size:3rem;
+    padding:30px 25px;
+    font-size: 3rem;
 }
-.Card{
-    background-color: rgb(245, 197, 139);
-    padding:15px;
-    margin:10px;
-    width:404px;
-    box-shadow:2px 2px 5px grey;
-    display:inline-block;
+.li_cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin:15px;
 }
-.cardTitle{
-    text-align:center;
-    margin-bottom:7px;
+.li_card{
+    background-color: #cbf0f0;
+    padding:35px;
+    box-shadow: 2px 2px 4px rgb(112, 109, 109);
 }
-.cardDes{
-    text-align: justify;
-    margin-bottom:5px;
+.lang{
+    margin-top:7px;
 }
-.cardTime{
-    text-align: right;
-    font-weight:bold;
+.btn{
+    padding:7px 12px;
+    margin:7px 7px 0 0;
+    border:0px solid #000;
+    border-radius:5px;
+    float:right;
+    font-weight: bold;
+    font-size:16px;
+    background-color:#75eea7;
+    transition:0.5s;
+}
+.btn:hover{
+    background-color: aqua;
+    color: rgb(235, 116, 116);
 }
