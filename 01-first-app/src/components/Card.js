@@ -1,15 +1,18 @@
+import React from 'react';
+
 const date = new Date();
 const getDay = date.getDate();
 const getMonth = date.getMonth();
 const getYear = date.getFullYear();
 
-function Card(props) {
-  const {todoTitle,todoDes} = props;
-  return  <div className='card'>
-            <h3 className='cardTitle'>{todoTitle}</h3>
-            <p className='todoDes'>{todoDes}</p>
-            <p className='todoFooter'>{getDay+"/"+getMonth+"/"+getYear}</p>
-          </div>
+
+function Card(props){
+  const {cardTitle, cardDes} = props;
+  return <div className='Card'>
+    <h3 className='cardTitle'>{cardTitle}</h3>
+    <p className='cardDes'>{cardDes}</p>
+    <p className='cardTime'>{getDay+"/"+getMonth+"/"+getYear}</p>
+  </div>
 }
 
 export default Card;

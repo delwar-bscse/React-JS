@@ -2,30 +2,31 @@
     margin:0px;
     padding:0px;
 }
-.headingStyle{
-    color:white;
-    background-color: purple;
-    font-size: 3rem;
+.todoHeading{
+    background-color:palegreen;
+    color:blueviolet;
     text-align:center;
-    padding:30px 15px;
-}
-.card{
-    background-color:#ffda77;
+    padding:25px 10px 30px;
     margin:10px;
-    padding:10px;
-    box-shadow: 2px 2px 5px gray;
-    width:390px;
+    font-size:3rem;
+}
+.Card{
+    background-color: rgb(245, 197, 139);
+    padding:15px;
+    margin:10px;
+    width:404px;
+    box-shadow:2px 2px 5px grey;
     display:inline-block;
 }
 .cardTitle{
     text-align:center;
-    margin-bottom:8px;
+    margin-bottom:7px;
 }
-.todoDes{
-    text-align:justify;
+.cardDes{
+    text-align: justify;
     margin-bottom:5px;
 }
-.todoFooter{
-    font-weight:bold;
+.cardTime{
     text-align: right;
+    font-weight:bold;
 }
