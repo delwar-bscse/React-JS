@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.counter{
+    background-color: bisque;
+    margin:10px auto;
+    width: 280px;
+}
+.count{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+}
+.btn_div{
+    text-align: center;
+}
+.btn{
+    padding:7px 16px;
+    margin: 0px 5px 15px;
+    background-color:rgb(151, 224, 226);
+}
