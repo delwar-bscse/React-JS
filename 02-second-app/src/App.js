@@ -1,9 +1,9 @@
 import React from 'react';
-import EventHandler from './EVEN_HANDLER_CLASS/EventHandler';
+import EventBinding from './EVENT_HANDLER_BINDING/EventBinding';
 
 function App(){
   return <div>
-    <EventHandler />
+    <EventBinding />
   </div>
 };
 
