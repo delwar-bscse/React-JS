@@ -1,9 +1,9 @@
 import React from 'react';
-import STATE from './components/STATE';
+import Conditions from './CONDITIONAL_RENDERING/Conditions'
 
 function App(){
   return <div>
-    <STATE />
+    <Conditions />
   </div>
 };
 
