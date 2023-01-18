@@ -1,9 +1,9 @@
 import React from 'react';
-import Conditions from './CONDITIONAL_RENDERING/Conditions'
+import EventHandler from './EVEN_HANDLER_CLASS/EventHandler';
 
 function App(){
   return <div>
-    <Conditions />
+    <EventHandler />
   </div>
 };
 
