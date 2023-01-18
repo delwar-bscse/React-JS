@@ -1,9 +1,11 @@
 import React from 'react';
-import EventBinding from './EVENT_HANDLER_BINDING/EventBinding';
+import AssignmentClass from './ASSIGNMENT/Assignment_Class';
+import AssignmentFunction from './ASSIGNMENT/Assignment_Function';
 
 function App(){
   return <div>
-    <EventBinding />
+    <AssignmentClass />
+    <AssignmentFunction />
   </div>
 };
 
