@@ -4,8 +4,8 @@ import AssignmentFunction from './ASSIGNMENT/Assignment_Function';
 
 function App(){
   return <div>
-    <AssignmentClass />
-    <AssignmentFunction />
+    <AssignmentClass/>
+    <AssignmentFunction/>
   </div>
 };
 
