@@ -3,19 +3,23 @@ import './style.css';
 
 function Form(){
 
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [user, setUser] = useState({name : '', email : '', password : ''});
+    const {name,email,password} = user;
 
-    const handleName=(e)=>{
-        setName(e.target.value)
-    };
-    const emailChange=(e)=>{
-        setEmail(e.target.value) 
-    };
-    const passwordChange=(e)=>{
-        setPassword(e.target.value) 
-    };
+    const inputHandler=(e)=>{
+        /*
+            const fildName = e.target.name;
+            if(fildName==='name'){
+                setUser({name : e.target.value, email, password});
+            }else if(fildName==='email'){
+                setUser({name, email : e.target.value, password});
+            }else{
+                setUser({name, email, password : e.target.value});
+            };
+        */       
+        setUser({...user, [e.target.name] : e.target.value});
+    }
+
     const handleButton=(e)=>{
         e.preventDefault();
         console.log('Form is submitted');
@@ -30,15 +34,15 @@ function Form(){
         <form action="" onSubmit={handleButton}>
             <div className='formDiv'>
                 <label htmlFor="name">Name : </label>
-                <input type="text" name="name" id="name" onChange={handleName} value={name} required/>
+                <input type="text" name="name" id="name" onChange={inputHandler} value={name} required/>
             </div>
             <div className='formDiv'>
                 <label htmlFor="email">Email : </label>
-                <input type="email" name="email" id="email" onChange={emailChange} value={email} required/>
+                <input type="email" name="email" id="email" onChange={inputHandler} value={email} required/>
             </div>
             <div className='formDiv'>
                 <label htmlFor="password">Password : </label>
-                <input type="password" name="password" id="password" onChange={passwordChange} value={password} required/>
+                <input type="password" name="password" id="password" onChange={inputHandler} value={password} required/>
             </div>
             <div className='formDiv'>
                 <button type="submit" id="button">Register</button>
