@@ -1,6 +1,6 @@
 import React from 'react'
-import DataFetch from './COMPONENTS/USE_EFFECT/DataFetch'
+import TodosFetch from './COMPONENTS/USE_EFFECT/TodosFetch'
 
 export default function App() {
-  return <DataFetch />
+  return <TodosFetch />
 };
