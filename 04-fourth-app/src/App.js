@@ -1,6 +1,6 @@
 import React from 'react'
-import ChildApp from './COMPONENTS/YUP_PACKAGE/ChildApp'
+import Home from './COMPONENTS/BASIC_TODO/Home'
 
 export default function App() {
-  return <ChildApp />
+  return <Home />
 };
