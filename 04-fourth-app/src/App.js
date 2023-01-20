@@ -1,6 +1,6 @@
 import React from 'react'
-import Toggle from './COMPONENTS/TOGGLE/Toggle'
+import FAQS from './COMPONENTS/FAQ/FAQS'
 
 export default function App() {
-  return <Toggle />
+  return <FAQS />
 };
