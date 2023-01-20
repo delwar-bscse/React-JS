@@ -1,6 +1,6 @@
 import React from 'react'
-import FAQS from './COMPONENTS/FAQ/FAQS'
+import UseEffect from './COMPONENTS/USE_EFFECT/UseEffect'
 
 export default function App() {
-  return <FAQS />
+  return <UseEffect />
 };
