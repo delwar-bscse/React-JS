@@ -1,6 +1,6 @@
 import React from 'react'
-import UseEffect from './COMPONENTS/USE_EFFECT/UseEffect'
+import DataFetch from './COMPONENTS/USE_EFFECT/DataFetch'
 
 export default function App() {
-  return <UseEffect />
+  return <DataFetch />
 };
