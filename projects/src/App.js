@@ -1,10 +1,9 @@
 import React from 'react';
-import ChildApp from './COMPONENTS/ChildApp';
 
 function App() {
   return (
     <div>
-      <ChildApp />
+      <h1>App</h1>
     </div>
   );
 }

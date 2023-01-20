@@ -1,6 +1,6 @@
 import React from 'react'
-import Home from './COMPONENTS/BASIC_TODO/Home'
+import Toggle from './COMPONENTS/TOGGLE/Toggle'
 
 export default function App() {
-  return <Home />
+  return <Toggle />
 };
