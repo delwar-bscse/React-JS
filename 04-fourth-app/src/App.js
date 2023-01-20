@@ -1,6 +1,6 @@
 import React from 'react'
-import TodosFetch from './COMPONENTS/USE_EFFECT/TodosFetch'
+import CustomHooks from './COMPONENTS/CUSTOM_HOOKS/CustomHook'
 
 export default function App() {
-  return <TodosFetch />
+  return <CustomHooks />
 };
