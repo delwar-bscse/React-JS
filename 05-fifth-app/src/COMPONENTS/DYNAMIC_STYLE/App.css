@@ -1,0 +1,25 @@
+.card{
+    text-align: center;
+}
+input{
+    border:2px solid rgb(129, 122, 122);
+    padding:15px 20px;
+    width:200px;
+    margin:10px auto;
+    border-radius: 5px;
+}
+.tagStyle_01{
+    background-color: rgb(255, 72, 0);
+    color: yellow;
+    transition: 0.5s;
+}
+.tagStyle_02{
+    background-color: yellow;
+    color:rgb(0, 17, 255);
+    transition: 0.5s;
+}
+.tagStyle_03{
+    background-color: rgb(159, 236, 4);
+    color:rgb(255, 1, 1);
+    transition: 0.5s;
+}
