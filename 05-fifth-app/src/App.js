@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './COMPONENTS/DYNAMIC_STYLE/Home';
+import Home from './COMPONENTS/PROP_TYPES/Home';
 
 const App = () => {
   return (<Home />)
