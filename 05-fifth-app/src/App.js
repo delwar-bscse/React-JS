@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './COMPONENTS/PROP_TYPES/Home';
+import Home from './COMPONENTS/LIFE_CYCLE/Home';
 
 const App = () => {
   return (<Home />)
