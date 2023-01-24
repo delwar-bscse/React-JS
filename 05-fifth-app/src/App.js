@@ -1,8 +1,8 @@
 import React from 'react'
-import Home from './REF_IN_CLASS/Home';
+import Home from './COMPONENTS/USE_REF_HOOK/Home';
 
 const App = () => {
-  return (<Home/>)
+  return (<Home />)
 };
 
 export default App;
