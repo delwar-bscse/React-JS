@@ -1,8 +1,8 @@
 import React from 'react'
-import Home from './COMPONENTS/LIFE_CYCLE/Home';
+import Home from './REF_IN_CLASS/Home';
 
 const App = () => {
-  return (<Home />)
+  return (<Home/>)
 };
 
 export default App;
