@@ -1,8 +1,8 @@
 import React from 'react'
-import Home from './COMPONENTS/USE_REDUCER/Home';
+import ComponentA from './COMPONENTS/USE_CONTEXT/Component_1';
 
 const App = () => {
-  return (<Home />)
+  return (<ComponentA />)
 };
 
 export default App;
