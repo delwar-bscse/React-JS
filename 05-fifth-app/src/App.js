@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './COMPONENTS/USE_REF_HOOK/Home';
+import Home from './COMPONENTS/USE_REDUCER/Home';
 
 const App = () => {
   return (<Home />)
