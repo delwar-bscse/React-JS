@@ -1,22 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import {useParams} from 'react-router-dom';
-import { blogsData } from './Data';
+import React from 'react';
+import { useLocation} from 'react-router-dom';
 
 
 const Blog = () => {
-    const {title} = useParams();
-    const [bodyData, setBodyData] = useState("");
-
-    useEffect(()=>{
-        const bodyText = blogsData.filter((blog)=>blog.title===title);
-        setBodyData(bodyText[0].body);
-    },[]);
+    const location = useLocation();
+    const {title, body} = location.state;
 
     return (
     <div>
-        <h1>{title}</h1>
-        <p>{bodyData.slice(0,301)}</p>
-        <p>{bodyData.slice(301,701)}</p>
+        <h1>{title.toUpperCase()} Page</h1>
+        <p>{body.slice(0,301)}</p>
+        <p>{body.slice(301,701)}</p>
     </div>
     );
 };

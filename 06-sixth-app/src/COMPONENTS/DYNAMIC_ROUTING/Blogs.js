@@ -19,12 +19,12 @@ const Blogs = () => {
         <h1>Blog Page</h1>
         <section>
             {blogs.map((blog)=>{
-            const {id,title,body} = blog;
-            return <article key={id}>
-              <h3>Title : {title}</h3>
-              <p>Body : {truncateString(body, 20)}</p>
-              <Link to={title}>Learn More</Link>
-            </article>
+              const {id,title,body} = blog;
+              return <article key={id}>
+                <h3>Title : {title}</h3>
+                <p>Body : {truncateString(body, 20)}</p>
+                <Link to={title} state={{id, title, body}}>Learn More</Link>
+              </article>
             })}
         </section>
     </div>
