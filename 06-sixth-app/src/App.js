@@ -1,5 +1,5 @@
 import React from 'react';
-import ChildApp from './COMPONENTS/PAGES/ChildApp';
+import ChildApp from './COMPONENTS/DYNAMIC_ROUTING/ChildApp';
 
 function App(){
   return <div>
