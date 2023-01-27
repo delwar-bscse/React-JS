@@ -1,9 +1,9 @@
 import React from 'react';
-import ChildApp from './COMPONENTS/DYNAMIC_ROUTING/ChildApp';
+import ReactRoute from './COMPONENTS/PROTECTED_ROUTING/ROUTE/Route';
 
 function App(){
   return <div>
-    <ChildApp />
+    <ReactRoute />
   </div>
 };
 
