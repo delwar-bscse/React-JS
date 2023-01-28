@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactRoute from './COMPONENTS/PROTECTED_ROUTING/ROUTE/Route';
+import ChildApp from './COMPONENTS/HTTP_METHOD/ChildApp';
 
 function App(){
   return <div>
-    <ReactRoute />
+    <ChildApp />
   </div>
 };
 
