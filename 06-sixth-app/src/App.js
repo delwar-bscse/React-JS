@@ -1,5 +1,5 @@
 import React from 'react';
-import ChildApp from './COMPONENTS/USE_CALLBACK/ChildApp';
+import ChildApp from './COMPONENTS/USE_MEMO_HOOK/ChildApp';
 
 function App(){
   return <div>
